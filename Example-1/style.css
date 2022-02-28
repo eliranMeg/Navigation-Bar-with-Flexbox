@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, img, button{
+  font-family: 'Smooch Sans', sans-serif;
+  color: whitesmoke;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.flexbox-container{
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #0088a9;
+  background-color: black;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgb(107, 104, 104);
+  border:none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 40px;
+}
+button:hover{
+  color: #3be725;
+  background-color: black;
+}
+
+.img-1{
+  position: relative;
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 80px) ;
+  background-size: 100% 100%;
+}
