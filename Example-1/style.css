@@ -59,7 +59,7 @@ button:hover{
 
 .img-1{
   position: relative;
-  background-image: url("img1.jpg");
+  background-image: url("./images/backround.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: calc(100vh - 80px) ;
